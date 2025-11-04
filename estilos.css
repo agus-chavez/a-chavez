@@ -1,0 +1,47 @@
+@font-face {
+    font-family: "Raleway-EstraBoldItalic";
+    src: url(fuentes/Raleway/static/Raleway-ExtraBoldItalic.ttf);
+}
+@font-face {
+  font-family: "Raleway-Light";
+  src: url(fuentes/Raleway/static/Raleway-Light.ttf);
+}
+
+
+body {
+background-color:#e895288a;
+font-family:"Raleway-Light";
+font: size 12px;
+margin: 0;
+padding: 40px;
+}
+h2 {
+    font-family:"Raleway-ExtraBoldItalic";
+    font-size:28px
+}
+
+.card {
+background-color: #fffcf6;
+max-width: 650px;
+margin: auto;
+padding: 20px;
+border-radius: 12px;
+box-shadow: 4px 6px 10px  rgba(242, 106, 10, 0.89);
+text-align: center;
+}
+img {
+width: 130px;
+height: 130px;
+border-radius: 40%
+}
+button {
+background-color: #D7520A;
+color: white;
+border: none;
+padding: 10px 20px;
+cursor: pointer;
+margin-top: 10px;
+}
+button:hover {
+background-color: #f5bd84;
+}
